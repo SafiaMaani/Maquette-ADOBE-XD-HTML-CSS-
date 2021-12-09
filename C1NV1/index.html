@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forulaire</title>
+</head>
+<body>
+    <section>
+        <h1>FORMULAIRE DE RECHERCHE</h1>
+        <form action="index.html">
+            <div id="form">
+                <div class="firstLine">
+                    <label for="text">
+                        Nom
+                    </label>
+                    <input type="text" >
+        
+                    <label for="text">
+                        Prenom
+                    </label>
+                    <input type="text" >
+                </div>
+    
+                <div>
+                    <label for="number">
+                        Numero de téléphone
+                    </label>
+                    <input type="number" >
+            
+                    <label for="text">
+                        E-mail
+                    </label>
+                    <input type="text" >
+                </div>
+    
+                <div>
+                    <label>
+                        Choix de ville
+                    </label>
+                    <input list="Villes">
+                        <datalist id="Villes">
+                          <option value="Casablanca">
+                          <option value="Rabat">
+                          <option value="Marrakech">
+                          <option value="Tanger">
+                          <option value="Oujda">
+                          <option value="Dakhla">
+                        </datalist>
+        
+                        <label for="typeProp">
+                            Choix de proprieté
+                        </label>
+                        <input list="typeProp" />
+                        <datalist id="typeProp">
+                            <option value="Appartement">
+                            <option value="Villa">
+                            <option value="Magasin">
+                        </datalist>
+                </div>
+                <div>
+                    <label>
+                        Nombre de chambres
+                    </label>
+                    <input type="number" >
+                        
+                    <label for="typeProp">
+                        Surface
+                    </label>
+                    <input list="surface" />
+                        <datalist id="surface">
+                            <option value="50m²">
+                            <option value="75m²">
+                            <option value="100m²">
+                            <option value="150m²">
+                            <option value="Plus que 150m²">
+                        </datalist>
+                </div><br>
+            </div>
+        </form>
+        <button>ENVOYER</button>
+    </section>
+</body>
+</html>
