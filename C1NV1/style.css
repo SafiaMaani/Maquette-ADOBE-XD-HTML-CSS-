@@ -1,6 +1,6 @@
 body
 {
-    background-color: beige;    
+    background-color: rgb(236, 220, 220);    
 }
 /* .ALL
 {
@@ -35,10 +35,8 @@ nav
 .partieDroite
 {
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 50%;
-    margin-top: 200px;
+    width: 40vw;
+    margin: 100px;
 }
 .middel
 {
@@ -83,7 +81,6 @@ ul
 {
     display: flex;
     align-items: center;
-    background-color: #fff;
 }
 li
 {
