@@ -8,89 +8,113 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <nav>
-        <div class="barreNav">
-            <img src="https://www.lavieeco.com/wp-content/uploads/2020/07/Immobilier-1.jpg" alt="">
-            <div class="secteur">
-                <h3>SAFIA IMMOBILIER</h3>
-                <ul >
-                    <li>APPARTEMENTS</li>
-                    <li>VILLAS</li>
-                    <li>MAGASINS</li>
-                    <li>TERRAINS</li>
-                </ul>
-            </div>
-        </div>        
-    </nav>
-    <section>
-        <div class="contenuForm">
-            <h1>FORMULAIRE DE RECHERCHE</h1>
-            <form action="index.html">
-                <div class="contenuLabel">
-                        <label for="text">
-                            Nom
-                        </label>
-                        <input type="text" ><br>
-            
-                        <label for="text">
-                            Prenom
-                        </label>
-                        <input type="text" ><br>
-        
-                        <label for="text">
-                            Numero de téléphone
-                        </label>
-                        <input type="text" ><br>
-                
-                        <label for="text">
-                            E-mail
-                        </label>
-                        <input type="text" ><br>
-        
-                        <label>
-                            Choix de ville
-                        </label>
-                        <input list="Villes">
-                            <datalist id="Villes">
-                            <option value="Casablanca">
-                            <option value="Rabat">
-                            <option value="Marrakech">
-                            <option value="Tanger">
-                            <option value="Oujda">
-                            <option value="Dakhla">
-                            </datalist><br>
-            
-                            <label for="typeProp">
-                                Choix de proprieté
+    <div class="ALL">
+        <nav>
+            <div class="barreNav">
+                <img id="logo" src="download.jpg" alt="">
+                <h4>MAROC IMMOBILIER</h4>
+                <div id="secteur">  
+                    <img src="appartement.jpg" alt=""> 
+                    <h4>APPARTEMENTS</h4>
+                    <img src="villa.png" alt=""> 
+                    <h4>VILLAS</h4>
+                    <img src="magasin.png" alt=""> 
+                    <h4>MAGASINS</h4>
+                    <img src="terrain.jpg" alt=""> 
+                    <h4>TERRAINS</h4>
+                </div>    
+            </div>        
+        </nav>
+        <section>
+            <div class="contenuForm">
+                <h1>FORMULAIRE DE RECHERCHE</h1>
+                <form action="index.html">
+                    <div class="contenuLabel">
+                            <label for="text">
+                                Nom
                             </label>
-                            <input list="typeProp" />
-                            <datalist id="typeProp">
-                                <option value="Appartement">
-                                <option value="Villa">
-                                <option value="Magasin">
-                                <option value="terrains">
-                            </datalist><br>
-
-                        <label>
-                            Nombre de chambres
-                        </label>
-                        <input type="number" ><br>
-                            
-                        <label for="typeProp">
-                            Surface
-                        </label>
-                        <input list="surface" />
-                            <datalist id="surface">
-                                <option value="50m²">
-                                <option value="75m²">
-                                <option value="100m²">
-                                <option value="150m²">
-                                <option value="Plus que 150m²">
-                            </datalist><br>
-                </div>
-            </form>
-        <button>ENVOYER</button>
-        </div>
-    </section>
+                            <input type="text" ><br>
+                
+                            <label for="text">
+                                Prenom
+                            </label>
+                            <input type="text" ><br>
+            
+                            <label for="text">
+                                Numero de téléphone
+                            </label>
+                            <input type="text" ><br>
+                    
+                            <label for="text">
+                                E-mail
+                            </label>
+                            <input type="text" ><br>
+            
+                            <label>
+                                Choix de ville
+                            </label>
+                            <input list="Villes">
+                                <datalist id="Villes">
+                                <option value="Casablanca">
+                                <option value="Rabat">
+                                <option value="Marrakech">
+                                <option value="Tanger">
+                                <option value="Oujda">
+                                <option value="Dakhla">
+                                </datalist><br>
+                
+                                <label for="typeProp">
+                                    Choix de proprieté
+                                </label>
+                                <input list="typeProp" />
+                                <datalist id="typeProp">
+                                    <option value="Appartement">
+                                    <option value="Villa">
+                                    <option value="Magasin">
+                                    <option value="terrains">
+                                </datalist><br>
+    
+                            <label>
+                                Nombre de chambres
+                            </label>
+                            <input type="number" ><br>
+                                
+                            <label for="typeProp">
+                                Surface
+                            </label>
+                            <input list="surface" />
+                                <datalist id="surface">
+                                    <option value="50m²">
+                                    <option value="75m²">
+                                    <option value="100m²">
+                                    <option value="150m²">
+                                    <option value="Plus que 150m²">
+                                </datalist><br>
+                                <label for="grille">
+                                    Grille de prix
+                                </label>
+                                <input list="grille">
+                                <datalist id="grille">
+                                    <option value="Entre 400 000 DH et 600 00 DH">
+                                    <option value="Entre 600 000 DH et 800 00 DH">
+                                    <option value="Entre 800 000 DH et 1 000 00 DH">
+                                    <option value="plus que 1 000 000 DH">
+                                </datalist><br>
+                    </div>
+                </form>
+            <button>ENVOYER</button>
+            </div>
+        </section>
+    </div>
+    <div id="contact">
+        <img src="reseauxSociaux.jpg" alt="">
+        <h3>NOUS CONTACTER</h3>
+        <ul>
+            <li><img src="wtsp.png" alt=""> TELEPHONE</li>
+            <li><img src="facebook.png" alt=""> FACEBOOK</li>
+            <li><img src="insta.jpg" alt=""> INSTAGRAMM</li>
+            <li><img src="twitter.png" alt=""> TWITER</li>
+         </ul>
+    </div>
 </body>
 </html>
