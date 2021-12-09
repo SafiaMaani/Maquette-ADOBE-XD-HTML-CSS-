@@ -1,34 +1,48 @@
 body
 {
-    margin: 0;
     background-color: beige;    
 }
+/* .ALL
+{
+    width: 1000px;
+} */
 nav
 {
     background-color: rgb(8, 184, 154);
-    color: black;
 }
 .barreNav
 {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 #logo
 {
-
+    width: 150px;
     border-radius: 350px;
 }
-section
+.partieGauche
 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
-    margin: 50px;
-    padding: 50px;
+    width: 50vw;
+    height: 100vh;
+    /* margin: 50px;
+    padding: 50px; */
     margin-top: 30px;
     border: 2px solid;
+}
+.partieDroite
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 200px;
+}
+.middel
+{
+    display: flex;
 }
 .contenuLabel
 {
@@ -50,7 +64,7 @@ ul
 }
 #secteur img
 {
-    width: 70px;
+    width: 50px;
     border-radius: 600px;
     margin: 20px;
 }
@@ -58,14 +72,31 @@ ul
 {
     display: flex;
     align-items: center;
+    margin-left: 50px;
 }
 #contact img
 {
     width: 70px;
     border-radius: 100px;
 }
+ul
+{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
 li
 {
     display: flex;
     align-items: center;
+    margin-left: 50px;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a :hover
+{
+    text-decoration: underline;
 }
