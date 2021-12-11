@@ -14,6 +14,7 @@
         <h3>Formulaire de recherche</h3>
 
         <form action="" method="get">
+                <h5>infos personnelles : </h5>
                 <div class="content">
                     <label for="text">
                         Nom
@@ -29,10 +30,10 @@
                 </div>
             
                 <div class="content">
-                    <label for="text">
+                    <label for="tel">
                         N° telephone
                     </label>
-                    <input type="text">
+                    <input type="tel">
                 </div>
     
                 <div class="content">
@@ -41,7 +42,8 @@
                     </label>
                     <input type="text">
                 </div>
-            
+                
+                <h5>Personnaliser votre choix : </h5>
                 <div class="content">
                     <label for="ville">
                         Choix de ville
@@ -107,7 +109,21 @@
                         <option value="plus que 1 000 000 DH">
                     </datalist>
                 </div>
+
+                <div class="content" >
+                    <input type="checkbox">
+                    <label for="conditions">
+                        j'ai lu et j'accepte les conditions générale du site 
+                    </label>
+                </div>
+                <div class="content">
+                    <input type="checkbox">
+                    <label for="conditions">
+                        j'accepte la reception des annonces du site par mail ou sms
+                    </label>
+                </div>
         </form>
+        <h6>**Merci de lire attentivement les <a href="">Conditions generales du site</a> avant de cocher les deux dernières cases.</h6>
         <button>ENVOYER</button>
     </section>
 </body>
